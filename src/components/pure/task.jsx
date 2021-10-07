@@ -40,17 +40,18 @@ const TaskComponent = ({ task }) => {
 				break;
 		}
 
-		/**
+	}
+		
+	/**
 		 * 
 		 * @returns icono dependiendo el estado de la tarea
 		 */
 
-		function taskCompletedIcon() {
-			if (task.completed) {
-				return (<i className='bi-toggle-on' style={{ color: 'green' }}></i>);
-			} else {
-				return (<i className='bi-toggle-off' style={{ color: 'grey' }}></i>);
-			}
+	function taskCompletedIcon() {
+		if (task.completed) {
+			return (<i className='bi-toggle-on' style={{ color: 'green' }}></i>);
+		} else {
+			return (<i className='bi-toggle-off' style={{ color: 'grey' }}></i>);
 		}
 	}
 
