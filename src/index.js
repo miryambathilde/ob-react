@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// Añadimos Bootrstrap anuestro proyecto
+import 'bootstrap/dist/css/bootstrap.css';
+// TODO: añadir iconos boostrap instalados //
+import 'bootstrap-icons/font/bootstrap-icons.css';
+// ! Importante: los estilos propios, deben ir debajo del bootstrap para que no los pise.
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
